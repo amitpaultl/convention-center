@@ -1,0 +1,99 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*------------------
+ header area start 
+ -----------------*/
+
+ .logo-top{
+    font-weight: 700;
+    font-size: 22px;
+    color: #3E3E3E;
+ }
+
+ .nav-menu a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #3E3E3E;
+ }
+
+ .img-hight{  
+    height: 584px;
+
+ }
+
+.grow-none{
+    flex-grow:0;
+}
+
+/*-----------------
+ hero area stsrt
+---------------- */
+
+.text-hero h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.text-hero p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 456px;
+    margin: 0 auto 17px;
+}
+
+.text-hero button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #3F87F5;
+    padding: 10px 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.hero-area .carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 4rem;
+    height: 5rem;
+}
+
+
+/* --------
+moment area 
+----------- */
+
+.moment{
+    padding: 100px 0;
+}
+
+.moment-text h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+
+.moment-text p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}
+
+.moment-text button {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: none;
+}
